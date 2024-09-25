@@ -1,2 +1,0 @@
-//cinematic functions 
-function 
