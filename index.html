@@ -4,44 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MoviPhys</title>
+    <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body class="container-fluid">
     <div class="row">
-      <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="navbar">
-        <div class="container-fluid">
-          <a class="ms-5 navbar-brand fw-bold" href="#"><img src="imgs/MoviPhy_logo.PNG" class="img-fluid" style="width: 10em;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="me-5 btn btn-outline-primary" type="submit">Search</button>
-            </form>
-          </div>
+      <nav class="container-fluid navbar fixed-top navbar-expand-lg bg-body-tertiary" id="navbar">
+        <a class="ms-5 navbar-brand fw-bold" href="index.html"><img src="imgs/MoviPhy_logo.PNG" class="img-fluid" style="width: 10em;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+          <label class="pb-1">Temas de interes:</label>
+          <ul class="navbar-nav me-auto mb-2 fs-4">
+            <li class="nav-item">
+              <a class="nav-link active text-success" href="side pages/MRU.html">MRU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-warning" href="side pages/MRUA.html">MRUA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-danger" href="side pages/caida libre.html">Caida libre</a>
+            </li>
+              <a class="nav-link active text-info" href="side pages/vectores.html">Vectores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-primary" href="side pages/movimiento parabolico.html">Movimeinto parabólico</a>
+            </li> 
+          </ul>
         </div>
       </nav>
       <!-- Introduccion de la pagina -->
@@ -203,31 +195,31 @@
         </div>
 
         <!-- Sistema vectorial -->
-        <div class="border border-success container-fluid m-0">
+        <div class="container-fluid m-0">
           <h1 class="text-center mt-5 fw-bold">Sistema vectorial</h1>
           <p class="fs-5">Hay muchas magnitudes físicas que tienen intensidad (o módulo) y dirección, como por ejemplo la velocidad o la fuerza, los vectores se usan para representar las magnitudes de este tipo. Estas magnitudes pueden ser representadas de forma grafica por medio de flechas en un espacio cardinal.</p>
       </div>
       <!-- Cartas de contenidos -->
       <div class="row mt-5">
-        <div class="card mx-auto border border-2 border-success overflow-auto" data-bs-spy="scroll" style="width: 30rem; height: 40em; scrollbar-width: none;">
+        <div class="card mx-auto border border-2 border-primary overflow-auto" data-bs-spy="scroll" style="width: 30rem; height: 40em; scrollbar-width: none;">
           <div class="card-body">
             <h4 class="card-title text-center fw-bold">Vectores</h4>
             <h6 class="card-subtitle text-center mb-2 text-body-secondary">Introduccion a los planos cartesianos</h6>
-            <hr class="text-success">
+            <hr class="text-primary">
             <p class="card-text">Un vector es una entidad en física que se caracteriza por tener dos propiedades esenciales: magnitud y dirección. Esto significa que, además de tener un tamaño (magnitud), un vector también señala hacia un determinado rumbo (dirección).</p>
             <p>Sus magnitudes son las siguientes:</p>
             <ul style="list-style-type: none;">
-              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-success position-absolute">speed</span></h5>
+              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-primary position-absolute">speed</span></h5>
               <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
               <li>velocidad final = V<sub>f</sub> (m/s)</li>
               <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-              <hr class="text-success">
-              <h5>Distancia<span class="material-symbols-outlined ms-1 text-success position-absolute">distance</span></h5>
+              <hr class="text-primary">
+              <h5>Distancia<span class="material-symbols-outlined ms-1 text-primary position-absolute">distance</span></h5>
               <li>distancia inicial = X<sub>i</sub> (m)</li>
               <li>distancia final = X<sub>f</sub> (m)</li>
               <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
-              <hr class="text-success">
-              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-success position-absolute">schedule</span></h5>
+              <hr class="text-primary">
+              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-primary position-absolute">schedule</span></h5>
               <li>tiempo = t (seg)</li>
             </ul>
             <img src="imgs/MRU.webp" class="container-fluid mb-3 mt-2 rounded-5" alt="">
@@ -246,28 +238,28 @@
             </div>
           </div>
         </div>
-        <div class="card mx-auto border border-2 border-warning container overflow-auto" style="width: 30rem; height: 40em; scrollbar-width: none;">
+        <div class="card mx-auto border border-2 border-info container overflow-auto" style="width: 30rem; height: 40em; scrollbar-width: none;">
           <div class="card-body">
             <h4 class="card-title text-center fw-bold">Movimiento Parabólico</h4>
             <h6 class="card-subtitle text-center mb-2 text-body-secondary">Trayectoria en un campo bi dimensional</h6>
-            <hr class="text-warning">
+            <hr class="text-info">
             <p class="card-text">El movimiento parabólico es el tipo de movimiento que sigue un objeto cuando se lanza al aire con una velocidad inicial que forma un ángulo con la horizontal.</p>
             <p>Sus magnitudes son las siguientes:</p>
             <ul style="list-style-type: none;">
-              <h5>Aceleración<span class="material-symbols-outlined ms-2 text-warning position-absolute">bolt</span></h5>
+                <h5>Aceleración<span class="material-symbols-outlined ms-2 text-info position-absolute">bolt</span></h5>
               <li>aceleracion = a (m/s<sup>2</sup>)</li>
-              <hr class="text-warning">
-              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-warning position-absolute">speed</span></h5>
+              <hr class="text-info">
+              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-info position-absolute">speed</span></h5>
               <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
               <li>velocidad final = V<sub>f</sub> (m/s)</li>
               <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-              <hr class="text-warning">
-              <h5>Distancia<span class="material-symbols-outlined ms-1 text-warning position-absolute">distance</span></h5>
+              <hr class="text-info">
+              <h5>Distancia<span class="material-symbols-outlined ms-1 text-info position-absolute">distance</span></h5>
               <li>distancia inicial = X<sub>i</sub> (m)</li>
               <li>distancia final = X<sub>f</sub> (m)</li>
               <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
-              <hr class="text-warning">
-              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-warning position-absolute">schedule</span></h5>
+              <hr class="text-info">
+              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-info position-absolute">schedule</span></h5>
               <li>tiempo = t</li>
             </ul>
             <img src="imgs/MRUA.jpg" class="container-fluid mb-3 rounded-5" alt="">
