@@ -82,8 +82,6 @@ function conversion_magnitudes(tipo_mag, mag_value1, mag_value2, mag){
     }
 }
 
-
-
 conversion_magnitudes("d", 7, 7, 20.16);
 
 // FUNCIONAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
