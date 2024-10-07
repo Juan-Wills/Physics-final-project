@@ -10,7 +10,7 @@
   <body class="container-fluid">
     
     <!-- Navegador -->
-    <div class="row">
+    <div class="row mt-4">
       <nav class="container-fluid navbar fixed-top navbar-expand-lg bg-body-tertiary" id="navbar">
         <a class="ms-5 navbar-brand fw-bold" href="index.html"><img src="imgs/MoviPhy_logo.PNG" class="img-fluid" style="width: 10em;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,198 +36,157 @@
             </li>
           </ul>   
         </div>
-        </nav>
+      </nav>
+    </div>
 
-      <!-- Introduccion de la pagina -->
-      <div class="shadow-lg container col-lg-12 col-xl-8 bg-light mt-5">
-        <h1 class="text-center my-5 pt-2 fw-bold"><img src="imgs/MoviPhy_logo.PNG" alt=""></h1>
-        <p class="fs-5 mx-5">Este programa fue realizado con la intencion de enseñar un poco acerca de la cinetica y como es su aplicacion dentro de la fisica por medio de formulas, ejercicios y descripciones de cada uno.</p>
-        <img src="imgs/fisica-main-page.jpg" class="rounded mx-auto d-block lg-img mt-4" alt="Imagen representativa de la cinetica">
+    <!-- Introduccion de la pagina -->
+    <div class="shadow container col-lg-12 col-xl-8 bg-light mt-5">
+      <h1 class="text-center my-5 pt-2 fw-bold"><img src="imgs/MoviPhy_logo.PNG" alt=""></h1>
+      <p class="fs-5 mx-5">Este programa fue realizado con la intencion de enseñar un poco acerca de la cinetica y como es su aplicacion dentro de la fisica por medio de formulas, ejercicios y descripciones de cada uno.</p>
+      <img src="imgs/fisica-main-page.jpg" class="rounded mx-auto d-block lg-img mt-4" alt="Imagen representativa de la cinetica">
 
-        <!-- Cinematica -->
-        <div id="cinematica"><br><br></div>
-        <div class="container-fluid m-0" id="cinematica">
-            <h1 class="text-center mt-5 fw-bold">Cinematica</h1>
-            <p class="fs-5">Se llama cinética o <strong>cinematica</strong> a la especialidad de la física centrada en el análisis del movimiento, dejando de lado el estudio de las fuerzas que lo originan. La cinética, en este marco, suele estudiar la trayectoria de un cuerpo en movimiento en función del tiempo.</p>
-            <a class="link" href="https://www.youtube.com/watch?v=PP1orhr_MCA&ab_channel=F%C3%ADsicaenAcci%C3%B3n">Aprende mas.</a>
-        </div>
-
-        <!-- Cartas de contenidos -->
-        <div class="row mt-5">
-          <div class="card mx-auto border border-2 border-success overflow-auto" data-bs-spy="scroll" style="width: 23rem; height: 40em; scrollbar-width: none;">
-            <div class="card-body">
-              <h4 class="card-title text-center fw-bold">MRU</h4>
-              <h6 class="card-subtitle text-center mb-2 text-body-secondary">Movimeinto rectilineo uniforme</h6>
-              <hr class="text-success">
-              <p class="card-text">Se define como el desplazamiento de un objeto en una dirección horizontal con una velocidad y tiempo constante en una determinada distancia.</p>
-              <p>Sus magnitudes son las siguientes:</p>
-              <ul style="list-style-type: none;">
-                <h5>Velocidad<span class="material-symbols-outlined ms-2 text-success position-absolute">speed</span></h5>
-                <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
-                <li>velocidad final = V<sub>f</sub> (m/s)</li>
-                <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-                <hr class="text-success">
-                <h5>Distancia<span class="material-symbols-outlined ms-1 text-success position-absolute">distance</span></h5>
-                <li>distancia inicial = X<sub>i</sub> (m)</li>
-                <li>distancia final = X<sub>f</sub> (m)</li>
-                <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
-                <hr class="text-success">
-                <h5>Tiempo<span class="material-symbols-outlined ms-1 text-success position-absolute">schedule</span></h5>
-                <li>tiempo = t (seg)</li>
-                <br>
-              </ul>
-              <img src="imgs/MRU.webp" class="container-fluid mb-3 mt-2 rounded-5" alt="">
-              <div class="row justify-content-around mt-3">
-                <a href="#" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
-                <div class="dropdown col-lg-4">
-                  <button href="#" class="btn btn-primary dropdown-toggle rounded-5 pb-2 col-lg-12" style="width: 7em;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Formulas</button>
-                  <ul class="dropdown-menu">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">velocidad promedio</h6>
-                    <li class="dropdown-item fs-5">V<sub>prom</sub> = ΔX/Δt</li>
-                    <hr class="my-2">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">distancia final</h6>
-                    <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+V<sub>prom</sub>.t</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto border border-2 border-warning container overflow-auto" style="width: 23rem; height: 40em; scrollbar-width: none;">
-            <div class="card-body">
-              <h4 class="card-title text-center fw-bold">MRUA</h4>
-              <h6 class="card-subtitle text-center mb-2 text-body-secondary">Movimeinto rectilineo uniformemente acelerado</h6>
-              <hr class="text-warning">
-              <p class="card-text">Se define como el desplazamiento de un objeto en una direccion horizontal estando sometido a una aceleración constante.</p>
-              <p>Sus magnitudes son las siguientes:</p>
-              <ul style="list-style-type: none;">
-                <h5>Aceleración<span class="material-symbols-outlined ms-2 text-warning position-absolute">bolt</span></h5>
-                <li>aceleracion = a (m/s<sup>2</sup>)</li>
-                <hr class="text-warning">
-                <h5>Velocidad<span class="material-symbols-outlined ms-2 text-warning position-absolute">speed</span></h5>
-                <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
-                <li>velocidad final = V<sub>f</sub> (m/s)</li>
-                <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-                <hr class="text-warning">
-                <h5>Distancia<span class="material-symbols-outlined ms-1 text-warning position-absolute">distance</span></h5>
-                <li>distancia inicial = X<sub>i</sub> (m)</li>
-                <li>distancia final = X<sub>f</sub> (m)</li>
-                <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
-                <hr class="text-warning">
-                <h5>Tiempo<span class="material-symbols-outlined ms-1 text-warning position-absolute">schedule</span></h5>
-                <li>tiempo = t</li>
-              </ul>
-              <img src="imgs/MRUA.jpg" class="container-fluid mb-3 rounded-5" alt="">
-              <div class="row justify-content-around mt-3">
-                <a href="#" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
-                <div class="dropdown col-lg-4">
-                  <button href="#" class="btn btn-primary dropdown-toggle rounded-5 pb-2 col-lg-12" style="width: 7em;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Formulas</button>
-                  <ul class="dropdown-menu">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">aceleracion</h6>
-                    <li class="dropdown-item fs-5">a = ΔV<sub>prom</sub>/Δt</li>
-                    <hr class="my-2">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">velocidad final</h6>
-                    <li class="dropdown-item fs-5">V<sub>f</sub> = V<sub>i</sub>+a.t</li>
-                    <li class="dropdown-item fs-5">V<sub>f</sub><sup>2</sup> = V<sub>i</sub><sup>2</sup>+2a.(X<sub>f</sub>-X<sub>i</sub>)</li>
-                    <hr class="my-2">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">distancia final</h6>
-                    <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+1/2(V<sub>i</sub>-V<sub>f</sub>).t</li>
-                    <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+V<sub>i</sub>.t+1/2a.t<sup>2</sup></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mx-auto border border-2 border-danger overflow-auto" style="width: 23rem; height: 40em; scrollbar-width: none;">
-            <div class="card-body">
-              <h4 class="card-title text-center fw-bold">CA</h4>
-              <h6 class="card-subtitle text-center mb-2 text-body-secondary">Caida Libre</h6>
-              <hr class="text-danger">
-              <p class="card-text">Se define como el movimiento de un objeto en una dirección vertical bajo la acción exclusiva de la gravedad.</p>
-              <p>Sus magnitudes son las siguientes:</p>
-              <ul style="list-style-type: none;">
-                <h5>Aceleración<span class="material-symbols-outlined ms-2 text-danger position-absolute">bolt</span></h5>
-                <li>aceleracion = a => gravedad => g (m/s<sup>2</sup>)</li>
-                <hr class="text-danger">
-                <h5>Velocidad<span class="material-symbols-outlined ms-2 text-danger position-absolute">speed</span></h5>
-                <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
-                <li>velocidad final = V<sub>f</sub> (m/s)</li>
-                <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-                <hr class="text-danger">
-                <h5>Distancia<span class="material-symbols-outlined ms-1 text-danger position-absolute">distance</span></h5>
-                <li>distancia inicial = Y<sub>i</sub> (m)</li>
-                <li>distancia final = Y<sub>f</sub> (m)</li>
-                <li>distancia promedio= Y<sub>prom</sub> => Y (m)</li>
-                <hr class="text-danger">
-                <h5>Tiempo<span class="material-symbols-outlined ms-1 text-danger position-absolute">schedule</span></h5>
-                <li>tiempo = t (seg)</li>
-              </ul>
-              <img src="imgs/CA.png" class="container-fluid mb-3 rounded-pill" alt="">
-              <div class="row justify-content-around mt-3" id="sistema_vectorial">
-                <a href="#" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
-                <div class="dropdown col-lg-4">
-                  <button href="#" class="btn btn-primary dropdown-toggle rounded-5 pb-2 col-lg-12" style="width: 7em;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Formulas</button>
-                  <ul class="dropdown-menu">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">velocidad final</h6>
-                    <li class="dropdown-item fs-5">V<sub>f</sub> = V<sub>i</sub>+a.t</li>
-                    <li class="dropdown-item fs-5">V<sub>f</sub><sup>2</sup> = V<sub>i</sub><sup>2</sup>+2a.(Y<sub>f</sub>-Y<sub>i</sub>)</li>
-                    <hr class="my-2">
-                    <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">distancia final</h6>
-                    <li class="dropdown-item fs-5">Y<sub>f</sub> = Y<sub>i</sub>+1/2(V<sub>i</sub>-V<sub>f</sub>).t</li>
-                    <li class="dropdown-item fs-5">Y<sub>f</sub> = Y<sub>i</sub>+V<sub>i</sub>.t+1/2a.t<sup>2</sup></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sistema vectorial -->
-        <div class="container-fluid">
-          <h1 class="text-center mt-5 fw-bold">Sistema vectorial</h1>
-          <p class="fs-5">Hay muchas magnitudes físicas que tienen intensidad (o módulo) y dirección, como por ejemplo la velocidad o la fuerza, los vectores se usan para representar las magnitudes de este tipo. Estas magnitudes pueden ser representadas de forma grafica por medio de flechas en un espacio cardinal.</p>
-          <a class="link" href="https://www.youtube.com/watch?v=wiuEEkP_XuM&ab_channel=3Blue1BrownEspa%C3%B1ol">Aprende mas.</a>
+      <!-- Cinematica -->
+      <div id="cinematica">
+        <br>
+        <br>
+      </div>
+      <div class="container-fluid m-0" id="cinematica">
+        <h1 class="text-center mt-5 fw-bold">Cinematica</h1>
+        <p class="fs-5">Se llama cinética o <strong>cinematica</strong> a la especialidad de la física centrada en el análisis del movimiento, dejando de lado el estudio de las fuerzas que lo originan. La cinética, en este marco, suele estudiar la trayectoria de un cuerpo en movimiento en función del tiempo.</p>
+        <a class="link" href="https://www.youtube.com/watch?v=PP1orhr_MCA&ab_channel=F%C3%ADsicaenAcci%C3%B3n">Aprende mas.</a>
       </div>
 
       <!-- Cartas de contenidos -->
       <div class="row mt-5">
-        <div class="card mx-auto border border-2 border-primary overflow-auto" data-bs-spy="scroll" style="width: 30rem; height: 40em; scrollbar-width: none;">
+        <div class="card mx-auto border border-2 border-success overflow-auto" data-bs-spy="scroll" style="width: 23rem; height: 40em; scrollbar-width: none;">
+          <div class="card-body">
+            <h4 class="card-title text-center fw-bold">MRU</h4>
+            <h6 class="card-subtitle text-center mb-2 text-body-secondary">Movimeinto rectilineo uniforme</h6>
+            <hr class="text-success">
+            <p class="card-text">Se define como el desplazamiento de un objeto en una dirección horizontal con una velocidad y tiempo constante en una determinada distancia.</p>
+            <p>Sus magnitudes son las siguientes:</p>
+            <ul style="list-style-type: none;">
+              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-success position-absolute">speed</span></h5>
+              <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
+              <li>velocidad final = V<sub>f</sub> (m/s)</li>
+              <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
+              <hr class="text-success">
+              <h5>Distancia<span class="material-symbols-outlined ms-1 text-success position-absolute">distance</span></h5>
+              <li>distancia inicial = X<sub>i</sub> (m)</li>
+              <li>distancia final = X<sub>f</sub> (m)</li>
+              <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
+              <hr class="text-success">
+              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-success position-absolute">schedule</span></h5>
+              <li>tiempo = t (seg)</li>
+              <br>
+            </ul>
+            <img src="imgs/MRU.webp" class="container-fluid mb-3 mt-2 rounded-5" alt="">
+            <div class="row justify-content-around mt-3">
+              <a href="side pages/MRU.html" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
+              <a href="https://www.youtube.com/watch?v=XE9UXxtep6M&ab_channel=SusiProfe" class="btn btn-primary rounded-5 pb-2 col-lg-5">Aprende mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto border border-2 border-warning container overflow-auto" style="width: 23rem; height: 40em; scrollbar-width: none;">
+          <div class="card-body">
+            <h4 class="card-title text-center fw-bold">MRUA</h4>
+            <h6 class="card-subtitle text-center mb-2 text-body-secondary">Movimeinto rectilineo uniformemente acelerado</h6>
+            <hr class="text-warning">
+            <p class="card-text">Se define como el desplazamiento de un objeto en una direccion horizontal estando sometido a una aceleración constante.</p>
+            <p>Sus magnitudes son las siguientes:</p>
+            <ul style="list-style-type: none;">
+              <h5>Aceleración<span class="material-symbols-outlined ms-2 text-warning position-absolute">bolt</span></h5>
+              <li>aceleracion = a (m/s<sup>2</sup>)</li>
+              <hr class="text-warning">
+              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-warning position-absolute">speed</span></h5>
+              <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
+              <li>velocidad final = V<sub>f</sub> (m/s)</li>
+              <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
+              <hr class="text-warning">
+              <h5>Distancia<span class="material-symbols-outlined ms-1 text-warning position-absolute">distance</span></h5>
+              <li>distancia inicial = X<sub>i</sub> (m)</li>
+              <li>distancia final = X<sub>f</sub> (m)</li>
+              <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
+              <hr class="text-warning">
+              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-warning position-absolute">schedule</span></h5>
+              <li>tiempo = t (seg)</li>
+            </ul>
+            <img src="imgs/MRUA.jpg" class="container-fluid mb-3 rounded-5" alt="">
+            <div class="row justify-content-around mt-3">
+              <a href="side pages/MRUA.html" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
+              <a href="https://www.youtube.com/watch?v=USFdbyGp8w8&ab_channel=SusiProfe" class="btn btn-primary rounded-5 pb-2 col-lg-5">Aprende mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="card mx-auto border border-2 border-danger overflow-auto" style="width: 23rem; height: 40em; scrollbar-width: none;">
+          <div class="card-body">
+            <h4 class="card-title text-center fw-bold">CA</h4>
+            <h6 class="card-subtitle text-center mb-2 text-body-secondary">Caida Libre</h6>
+            <hr class="text-danger">
+            <p class="card-text">Se define como el movimiento de un objeto en una dirección vertical bajo la acción exclusiva de la gravedad.</p>
+            <p>Sus magnitudes son las siguientes:</p>
+            <ul style="list-style-type: none;">
+              <h5>Aceleración<span class="material-symbols-outlined ms-2 text-danger position-absolute">bolt</span></h5>
+              <li>aceleracion = a => gravedad => g (m/s<sup>2</sup>)</li>
+              <hr class="text-danger">
+              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-danger position-absolute">speed</span></h5>
+              <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
+              <li>velocidad final = V<sub>f</sub> (m/s)</li>
+              <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
+              <hr class="text-danger">
+              <h5>Distancia<span class="material-symbols-outlined ms-1 text-danger position-absolute">distance</span></h5>
+              <li>distancia inicial = Y<sub>i</sub> (m)</li>
+              <li>distancia final = Y<sub>f</sub> (m)</li>
+              <li>distancia promedio= Y<sub>prom</sub> => Y (m)</li>
+              <hr class="text-danger">
+              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-danger position-absolute">schedule</span></h5>
+              <li>tiempo = t (seg)</li>
+            </ul>
+            <img src="imgs/CA.png" class="container-fluid mb-3 rounded-pill" alt="">
+            <div class="row justify-content-around mt-3" id="sistema_vectorial">
+              <a href="side pages/caida libre.html" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
+              <a href="https://www.youtube.com/watch?v=it8qb20BkC8&ab_channel=ProfesorParticularPuebla" class="btn btn-primary rounded-5 pb-2 col-lg-5">Aprende mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sistema vectorial -->
+      <div class="container-fluid">
+        <h1 class="text-center mt-5 fw-bold">Sistema vectorial</h1>
+        <p class="fs-5">Hay muchas magnitudes físicas que tienen intensidad (o módulo) y dirección, como por ejemplo la velocidad o la fuerza, los vectores se usan para representar las magnitudes de este tipo. Estas magnitudes pueden ser representadas de forma grafica por medio de flechas en un espacio cardinal.</p>
+        <a class="link" href="https://www.youtube.com/watch?v=wiuEEkP_XuM&ab_channel=3Blue1BrownEspa%C3%B1ol">Aprende mas.</a>
+      </div>
+
+      <!-- Cartas de contenidos -->
+      <div class="row mt-5">
+        <div class="card mx-auto border border-2 border-primary overflow-auto col-4" data-bs-spy="scroll" style="height: 40em; scrollbar-width: none;">
           <div class="card-body">
             <h4 class="card-title text-center fw-bold">Vectores</h4>
             <h6 class="card-subtitle text-center mb-2 text-body-secondary">Introduccion a los planos cartesianos</h6>
             <hr class="text-primary">
-            <p class="card-text">Un vector es una entidad en física que se caracteriza por tener dos propiedades esenciales: magnitud y dirección. Esto significa que, además de tener un tamaño (magnitud), un vector también señala hacia un determinado rumbo (dirección).</p>
+            <p class="card-text">Los vectores son segmentos de una línea recta que están orientados dentro de un plano bidimensional o tridimensional, también conocido como un espacio vectorial. Su expresión matemática se representa mediante una letra con una flecha en la parte superior y, a nivel gráfico,también se utiliza el recurso de la fecha para señalarlos.</p>
             <p>Sus magnitudes son las siguientes:</p>
             <ul style="list-style-type: none;">
-              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-primary position-absolute">speed</span></h5>
-              <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
-              <li>velocidad final = V<sub>f</sub> (m/s)</li>
-              <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
+              <h5>Magnitud del vector<span class="material-symbols-outlined ms-1 text-primary position-absolute">format_size</span></h5>
+              <li>representacion = →r</li>
+              <li>multiples vectores = →r<sub>x</sub></li>
               <hr class="text-primary">
-              <h5>Distancia<span class="material-symbols-outlined ms-1 text-primary position-absolute">distance</span></h5>
-              <li>distancia inicial = X<sub>i</sub> (m)</li>
-              <li>distancia final = X<sub>f</sub> (m)</li>
-              <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
+              <h5>Direccion<span class="material-symbols-outlined ms-1 text-primary position-absolute">open_in_full</span></h5>
+              <li>angulo = θ (º)</li>
               <hr class="text-primary">
-              <h5>Tiempo<span class="material-symbols-outlined ms-1 text-primary position-absolute">schedule</span></h5>
-              <li>tiempo = t (seg)</li>
+              <h5>Sentido<span class="material-symbols-outlined ms-1 text-primary position-absolute">removeadd</span></h5>
+              <li>negativo = Cuadrante 2, 3 (-)</li>
+              <li>positivo = Cuadrante 1, 4 (+)</li>
             </ul>
-            <img src="imgs/MRU.webp" class="container-fluid mb-3 mt-2 rounded-5" alt="">
-            <div class="row justify-content-around mt-2">
-              <a href="#" class="btn btn-secondary rounded-5 col-lg-3" role="button">Ejercicios</a>
-              <div class="dropdown col-lg-4">
-                <button href="#" class="btn btn-primary dropdown-toggle rounded-5 pb-2 col-lg-12" style="width: 7em;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Formulas</button>
-                <ul class="dropdown-menu">
-                  <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">velocidad promedio</h6>
-                  <li class="dropdown-item fs-5">V<sub>prom</sub> = ΔX/Δt</li>
-                  <hr class="my-2">
-                  <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">distancia final</h6>
-                  <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+V<sub>prom</sub>.t</li>
-                </ul>
-              </div>
+            <img src="imgs/vector.webp" class="container-fluid mb-3 mt-2 rounded-5" alt="">
+            <div class="row justify-content-around mt-3">
+              <a href="side pages/vectores.html" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
+              <a href="https://www.youtube.com/watch?v=IrTeyyzerjI&ab_channel=Matem%C3%A1ticasprofeAlex" class="btn btn-primary rounded-5 pb-2 col-lg-5">Aprende mas</a>
             </div>
           </div>
         </div>
-        <div class="card mx-auto border border-2 border-info container overflow-auto" style="width: 30rem; height: 40em; scrollbar-width: none;">
+        <div class="card mx-auto border border-2 border-info container overflow-auto col-4" style="height: 40em; scrollbar-width: none;">
           <div class="card-body">
             <h4 class="card-title text-center fw-bold">Movimiento Parabólico</h4>
             <h6 class="card-subtitle text-center mb-2 text-body-secondary">Trayectoria en un campo bi dimensional</h6>
@@ -235,100 +194,98 @@
             <p class="card-text">El movimiento parabólico es el tipo de movimiento que sigue un objeto cuando se lanza al aire con una velocidad inicial que forma un ángulo con la horizontal.</p>
             <p>Sus magnitudes son las siguientes:</p>
             <ul style="list-style-type: none;">
-                <h5>Aceleración<span class="material-symbols-outlined ms-2 text-info position-absolute">bolt</span></h5>
-              <li>aceleracion = a (m/s<sup>2</sup>)</li>
-              <hr class="text-info">
-              <h5>Velocidad<span class="material-symbols-outlined ms-2 text-info position-absolute">speed</span></h5>
-              <li>velocidad inicial = V<sub>i</sub> (m/s)</li>
-              <li>velocidad final = V<sub>f</sub> (m/s)</li>
-              <li>velocidad promedio = V<sub>prom</sub> => V<sub>x</sub> (m/s)</li>
-              <hr class="text-info">
-              <h5>Distancia<span class="material-symbols-outlined ms-1 text-info position-absolute">distance</span></h5>
+              <h5>Componente horizontal<span class="material-symbols-outlined ms-2 text-info position-absolute">swap_horiz</span></h5>
               <li>distancia inicial = X<sub>i</sub> (m)</li>
               <li>distancia final = X<sub>f</sub> (m)</li>
               <li>distancia promedio= X<sub>prom</sub> => X (m)</li>
               <hr class="text-info">
+              <h5>Componente vertical<span class="material-symbols-outlined ms-1 text-info position-absolute">swap_horiz</span></h5>
+              <li>distancia inicial = Y<sub>i</sub> (m)</li>
+              <li>distancia final = Y<sub>f</sub> (m)</li>
+              <li>distancia promedio= Y<sub>prom</sub> => Y (m)</li>
+              <hr class="text-info">
+              <h5>Aceleración<span class="material-symbols-outlined ms-2 text-info position-absolute">bolt</span></h5>
+                <li>aceleracion = a => gravedad => g (m/s<sup>2</sup>)</li>
+                <hr class="text-info">
+              <h5>Direccion<span class="material-symbols-outlined ms-1 text-info position-absolute">open_in_full</span></h5>
+              <li>angulo = θ (º)</li>
+              <hr class="text-info">
               <h5>Tiempo<span class="material-symbols-outlined ms-1 text-info position-absolute">schedule</span></h5>
-              <li>tiempo = t</li>
+              <li>tiempo = t (seg)</li>
             </ul>
-            <img src="imgs/MRUA.jpg" class="container-fluid mb-3 rounded-5" alt="">
+            <img src="imgs/movimiento parabolico.webp" class="container-fluid mb-3 rounded-5" alt="">
             <div class="row justify-content-around mt-2">
-              <a href="#" class="btn btn-secondary rounded-5 col-lg-3" role="button">Ejercicios</a>
-              <div class="dropdown col-lg-4">
-                <button href="#" class="btn btn-primary dropdown-toggle rounded-5 pb-2" style="width: 7em;" type="button" data-bs-toggle="dropdown" aria-expanded="false">Formulas</button>
-                <ul class="dropdown-menu">
-                  <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">aceleracion</h6>
-                  <li class="dropdown-item fs-5">a = ΔV<sub>prom</sub>/Δt</li>
-                  <hr class="my-2">
-                  <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">velocidad final</h6>
-                  <li class="dropdown-item fs-5">V<sub>f</sub> = V<sub>i</sub>+a.t</li>
-                  <li class="dropdown-item fs-5">V<sub>f</sub><sup>2</sup> = V<sub>i</sub><sup>2</sup>+2a.(X<sub>f</sub>-X<sub>i</sub>)</li>
-                  <hr class="my-2">
-                  <h6 class="container text-secondary fst-italic" style="font-size: smaller; margin: 0;">distancia final</h6>
-                  <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+1/2(V<sub>i</sub>-V<sub>f</sub>).t</li>
-                  <li class="dropdown-item fs-5">X<sub>f</sub> = X<sub>i</sub>+V<sub>i</sub>.t+1/2a.t<sup>2</sup></li>
-                </ul>
-              </div>
+              <a href="side pages/movimiento parabolico.html" class="btn btn-secondary rounded-5 col-lg-4" role="button">Ejercicios</a>
+              <a href="https://www.youtube.com/watch?v=DjmC8An-5oo&ab_channel=F%C3%ADsicaPRO" class="btn btn-primary rounded-5 pb-2 col-lg-5">Aprende mas</a>
             </div>
           </div>
-        </div>
-
-        <!-- Seccion de aclaraciones -->
-        <div class="container-fluid text-body-secondary mt-3">
-          <h6 class="fst-italic">Aclaraciones:</h6>
-          <div class="row justify-content-around">
-            <ul class="col-5" style="list-style-type: none;">
-              <li>m: Metros (unidad de medida de distancia)</li>
-              <li>s/seg: Segundos (unidad de medida de tiempo)</li>
-              <li>X: Representacion de distancia horizontal</li>
-              <li>Y: Representacion de distancia vertical</li>
-            </ul>
-            <ul class="col-5" style="list-style-type: none;">
-              <li>"x"<sup>2</sup>: Exponente al cuadrado</li>
-              <li>gravedad: Su valor es constante (9.8 m/s<sup>2</sup> )</li>
-              <li>m/s: Metros sobre segundos (Unidad de medida de velocidad)</li>
-              <li>m/s<sup>2</sup>: Metros sobre segundos al cuadrado (Unidad de la aceleracion)</li>
-            </ul>
-            <p class="fst-italic col-11">Las unidades de medidas dadas en esta presentacion se utilizan de manera standar, lo que significa que se pueden realizar o conversionar a otros tipos de unidades a conveniencia del ejercicio.</p>
-          </div>
-        </div>
-
-        <!-- Comentarios -->
-        <div class="container-fluid col-lg-10 mx-auto mt-5">
-          <h1>¿Que te ha parecido la pagina?</h1>
-          <h6 class="col-7 ms-2">Dejanos un comentario para seguir mejorando nuestro diseño y de esta manera que tu experiencia en nuestra pagina sea ma placentera</h6>
-        </div>
-        <div class="mb-3 mt-1 p-3 px-5 mx-auto border border-primary  rounded" style="width:  80%;">
-          <form class="row g-3">
-            <div class="col-md-4">
-              <label for="validationDefault01" class="form-label fw-bold">Nombre <strong class="text-danger">*</strong></label>
-              <input type="text" class="form-control" id="com-fn" required>
-            </div>
-            <div class="col-md-4">
-              <label for="validationDefault02" class="form-label fw-bold">Apellido</label>
-              <input type="text" class="form-control" id="com-ln" required>
-            </div>
-            <div class="col-md-4">
-              <label for="validationDefault03" class="form-label fw-bold">Ciudad</label>
-              <input type="text" class="form-control" id="com-ct" required>
-            </div>
-            <div>
-              <textarea name="" id="" class="col-12 border rounded px-3 py-2  " style="height: 15em;" placeholder="Comentario"></textarea>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Comentar</button>
-            </div>
-          </form>
         </div>
       </div>
+
+      <!-- Seccion de aclaraciones -->
+      <div class="container-fluid text-body-secondary mt-3">
+        <h6 class="fst-italic">Aclaraciones:</h6>
+        <div class="row justify-content-around">
+          <ul class="col-5" style="list-style-type: none;">
+            <li>m: Metros (unidad de medida de distancia).</li>
+            <li>s/seg: Segundos (unidad de medida de tiempo).</li>
+            <li>X: Representacion de distancia horizontal.</li>
+            <li>Y: Representacion de distancia vertical.</li>
+            <li>Co: Cateto adyacente (lado mas lejano al angulo).</li>
+            <li>h: Hipotenusa (lado mas largo).</li>
+            <li>θ: Thetha (simbolo representativo de un angulo).</li>
+            <li>Tan(): Funcion de la variación de la abscisa y la ordenada con respecto al ángulo θ.</li>
+          </ul>
+          <ul class="col-5" style="list-style-type: none;">
+            <li>"x"<sup>2</sup>: Exponente al cuadrado.</li>
+            <li>gravedad: Su valor es constante (9.8 m/s<sup>2</sup> ).</li>
+            <li>m/s: Metros sobre segundos (Unidad de medida de velocidad).</li>
+            <li>m/s<sup>2</sup>: Metros sobre segundos al cuadrado (Unidad de la aceleracion).</li>
+            <li>Ca: Cateto adyacente (lado mas cercano al angulo).</li>
+            <li>º: Grados (unidad de medida de angulos y temperatura).</li>
+            <li>Cos(): Funcion de la variación de la abscisa con respecto al ángulo θ.</li>
+            <li>Sen(): Funcion de la variación de la ordenada con respecto al ángulo θ.</li>
+          </ul>
+          <p class="fst-italic col-11">Las unidades de medidas dadas en esta presentacion se utilizan de manera standar, lo que significa que se pueden realizar o conversionar a otros tipos de unidades a conveniencia del ejercicio.</p>
+        </div>
+      </div>
+
+      <!-- Comentarios -->
+      <div class="container-fluid col-lg-10 mx-auto">
+        <h1>¿Que te ha parecido la pagina?</h1>
+        <h6 class="col-7 ms-2">Dejanos un comentario para seguir mejorando nuestro diseño y de esta manera que tu experiencia en nuestra pagina sea ma placentera</h6>
+      </div>
+      <div class="mb-3 mt-1 p-3 px-5 mx-auto border border-primary rounded" style="width:  80%;">
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label fw-bold">Nombre <strong class="text-danger">*</strong></label>
+            <input type="text" class="form-control" id="com-fn" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label fw-bold">Apellido</label>
+            <input type="text" class="form-control" id="com-ln" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault03" class="form-label fw-bold">Ciudad</label>
+            <input type="text" class="form-control" id="com-ct" required>
+          </div>
+          <div>
+            <textarea name="" id="" class="col-12 border rounded px-3 py-2  " style="height: 15em;" placeholder="Comentario"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Comentar</button>
+          </div>
+        </form>
+      </div>
     </div>
+
+    <!-- Pie de pagina -->
     <footer class="container-fluid bg-white border-top border-1 border-dark">
       <div class="container mt-4">
         <h5><strong>Hecho por</strong></h6>
           <ul>
             <li>Juan David Wills</li>
           </ul>
-
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
